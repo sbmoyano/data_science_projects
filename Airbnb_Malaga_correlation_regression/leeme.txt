@@ -1,0 +1,24 @@
+Esta carpeta contiene las capas de CartoCiudad por provincia que se suministran a través del Centro de Descargas del Centro Nacional de Información Geográfica.
+Las capas están en formato SHP y DBF, y cada una se compone de los ficheros que se listan a continuación, con la nomenclatura que se especifica.
+Su sistema de referencia es ETRS89, en coordenadas geográficas.
+
+Nomenclatura de los ficheros almacenados en CARTOCIUDAD_CALLEJERO_PROVINCIA.zip:
+
+CARTOCIUDAD_CALLEJERO_PROVINCIA.zip
+
+Capa PORTAL_PK
+	PORTAL_PK.dbf
+	PORTAL_PK.prj
+	PORTAL_PK.shp
+	PORTAL_PK.shx
+Capa MANZANA
+	MANZANA.dbf
+	MANZANA.prj
+	MANZANA.shp
+	MANZANA.shx
+Tabla MUNICIPIO_VIAL
+	MUNICIPIO_VIAL.dbf
+
+NOTA: Los campos de las capas son los del modelo de datos de CartoCiudad, aunque algunos se ven acortados
+por la limitación a 10 caracteres en el nombre de atributo de los shapefiles.
+Además se han añadido descripciones de algunos de los campos que utilizan listas controladas numéricas.
