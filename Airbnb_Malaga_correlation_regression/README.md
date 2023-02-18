@@ -17,3 +17,5 @@ To offer a general overview of the purpose of this notebook, I will:
 * Multiple methods are applied for feature selection (F Regression, Random Forest, Recursive Feature Elimination with Lasso Regression, Backward Elimination and Stepwise Elimination). These different selected features will be saved and models will be fitted in order to compare model performance based on these.
 
 * Finally, Lasso, Ridge, ElasticNet and Random Forest Regression models are meant to be build. Model performance will be evaluated on different metrics.
+
+***Note*. This is one of my first times using Sklearn. For a more "deep learning" project, take a look at my project on fraud detection.**
