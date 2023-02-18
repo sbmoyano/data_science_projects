@@ -31,7 +31,7 @@ To train the models, I considered the **imbalance in the dataset between fraud a
 * For **XGBoost and LightGBM** I have specified the **weight for the positive class**, which in our case is the underrepresented class.
 
 * For the **MLP model**, I have specified the **class weights for the positive and negative class**. 
-*
+
 * As this parameter can not be specified for the **LSTM model**, I will have to introduce the weight of the classes in the loss function (i.e., **Weighted Binary Crossentropy**). Additionally, as for the LSTM all the sequences in the train, validation and test sets need to have the same length, I will have to apply **Padding**. In order to tell the model which padded values to ignore, I will use **sample weights** for the train and validation sets, as well as for the test set when evaluating the model (weight of 0 for padded values and 1 for the rest)
 
 During training, a first “baseline” model with the default hyperparameters established by each library will be trained. Next, I will do a Random Search on boosting, regularization or learning rate parameters, comparing if the new hypermeters helped to improved the model based on our previous trained model.
