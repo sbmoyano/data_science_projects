@@ -16,4 +16,4 @@ Special attention will be paid on the periods before, during and after the econo
 
 * Regression analysis will allow us to see if the country GDP could be predicted by private business investment in R&D.
 
-***Note*. Regression models were only implemented using StatsModels and ScipyStats. By the time this notebook was created I was more interested in how to use Quantile Regression for my research on cognitive neuroscience. For a more "machine learning approach", take a look at my project on fraud detection.**
+***Note*. Regression models were only implemented using StatsModels and ScipyStats. By the time this notebook was created I was more interested in how to use Quantile Regression for my research on cognitive neuroscience. For a more "machine learning" and "deep learning" project, take a look at my project on fraud detection.**
